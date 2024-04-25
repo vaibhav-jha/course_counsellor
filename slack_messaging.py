@@ -12,6 +12,9 @@ client = WebClient(token=SLACK_TOKEN)
 
 def send_message(text):
     try:
+
+        print("PRINTING SLACK !!! SLACK ")
+
         response = client.chat_postMessage(
             channel="U0702SSEF47",
             text=text
