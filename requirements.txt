@@ -1,3 +1,13 @@
 langchain
+numpy
+pandas
 langchain-openai
 flask
+docx2txt
+langchain-ibm
+openai
+ibm-watson-machine-learning
+langchainhub
+langchain_experimental
+openpyxl
+slack_sdk

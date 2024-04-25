@@ -1,0 +1,236 @@
+[
+    {
+        "title": "Leadership Development for Technical Managers",
+        "description": "This course covers essential leadership skills tailored for technical environments, focusing on effective team management and strategic decision-making.",
+        "rating": 4.5,
+        "trending_metric": 85,
+        "skills_learned": ["Team management", "Conflict resolution", "Strategic decision-making"],
+        "hours_to_complete": 40,
+        "learnings": [
+            "Understand leadership theories and their practical applications in tech environments.",
+            "Develop strategies for effective team management and conflict resolution.",
+            "Learn how to make informed strategic decisions that align with business goals."
+        ]
+    },
+    {
+        "title": "Advanced Network Troubleshooting",
+        "description": "Deep dive into complex network issues with hands-on labs and real-world problem-solving scenarios.",
+        "rating": 4.7,
+        "trending_metric": 80,
+        "skills_learned": ["Network troubleshooting", "Problem-solving"],
+        "hours_to_complete": 30,
+        "learnings": [
+            "Master the tools and techniques for diagnosing and resolving complex network issues.",
+            "Apply troubleshooting methods in real-world scenarios through interactive labs.",
+            "Enhance problem-solving skills with advanced diagnostic software."
+        ]
+    },
+    {
+        "title": "Customer Interaction Mastery",
+        "description": "Learn to handle difficult customer service situations through advanced communication strategies and role-playing sessions.",
+        "rating": 4.4,
+        "trending_metric": 75,
+        "skills_learned": ["Customer service", "Communication", "Stress management"],
+        "hours_to_complete": 20,
+        "learnings": [
+            "Develop advanced communication skills to manage challenging customer interactions.",
+            "Use role-playing to practice and refine customer service techniques.",
+            "Learn stress management techniques to maintain professionalism in high-pressure situations."
+        ]
+    },
+    {
+        "title": "Quality Management and Compliance",
+        "description": "Understand the fundamentals of quality control and compliance in telecommunications to ensure high standards across operations.",
+        "rating": 4.6,
+        "trending_metric": 70,
+        "skills_learned": ["Quality assurance", "Regulatory compliance"],
+        "hours_to_complete": 25,
+        "learnings": [
+            "Explore the principles of quality management and their application in field operations.",
+            "Understand compliance requirements specific to the telecommunications industry.",
+            "Learn to implement quality control processes to enhance service reliability."
+        ]
+    },
+    {
+        "title": "Operational Efficiency in Field Services",
+        "description": "Optimize team workflows and resource management to improve operational efficiency and reduce costs.",
+        "rating": 4.3,
+        "trending_metric": 65,
+        "skills_learned": ["Workflow optimization", "Resource management"],
+        "hours_to_complete": 15,
+        "learnings": [
+            "Learn techniques for streamlining field operations to maximize efficiency.",
+            "Understand resource allocation strategies to minimize costs while maintaining service quality.",
+            "Implement best practices for scheduling and logistics management."
+        ]
+    },
+    {
+        "title": "Effective Safety Protocols Training",
+        "description": "Enhance safety knowledge with updated protocols and hands-on practice, focusing on minimizing risks and ensuring compliance on-site.",
+        "rating": 4.8,
+        "trending_metric": 90,
+        "skills_learned": ["Safety protocols", "Risk management"],
+        "hours_to_complete": 10,
+        "learnings": [
+            "Master the latest safety protocols and regulations relevant to field technicians.",
+            "Engage in practical exercises to apply safety measures in various field scenarios.",
+            "Learn risk assessment techniques to proactively manage and mitigate potential hazards."
+        ]
+    },
+    {
+        "title": "Advanced Fiber Optics Installation and Maintenance",
+        "description": "Master the latest techniques in fiber optics installation and maintenance, essential for managing high-speed telecommunications infrastructure.",
+        "rating": 4.9,
+        "trending_metric": 95,
+        "skills_learned": ["Fiber optics installation", "Infrastructure maintenance"],
+        "hours_to_complete": 50,
+        "learnings": [
+            "Understand the fundamentals and advanced aspects of fiber optics technology.",
+            "Learn hands-on installation and maintenance techniques for fiber optic systems.",
+            "Troubleshoot common issues and learn preventive maintenance strategies."
+        ]
+    },
+    {
+        "title": "Project Management Certification Prep",
+        "description": "Prepare for PMP or CAPM certifications with a comprehensive review of project management principles, tailored for technical projects.",
+        "rating": 4.6,
+        "trending_metric": 78,
+        "skills_learned": ["Project management", "Certification preparation"],
+        "hours_to_complete": 35,
+        "learnings": [
+            "Study the core principles of project management from initiation to closure.",
+            "Prepare for PMP or CAPM exams with targeted materials and practice exams.",
+            "Apply project management techniques in technical projects to improve outcomes."
+        ]
+    },
+    {
+        "title": "Next-Gen 5G Technology Training",
+        "description": "Stay ahead with a deep understanding of 5G technology, its deployment, and maintenance challenges in the field.",
+        "rating": 4.7,
+        "trending_metric": 88,
+        "skills_learned": ["5G technology", "Network deployment"],
+        "hours_to_complete": 40,
+        "learnings": [
+            "Understand the architecture and deployment strategies of 5G networks.",
+            "Learn about the tools and techniques for installing and maintaining 5G infrastructure.",
+            "Identify and resolve common challenges associated with 5G technology."
+        ]
+    },
+    {
+        "title": "Advanced Communication for Leaders",
+        "description": "Develop exceptional communication skills that enhance clarity and effectiveness in leadership roles within technical teams.",
+        "rating": 4.5,
+        "trending_metric": 60,
+        "skills_learned": ["Effective communication", "Team leadership"],
+        "hours_to_complete": 18,
+        "learnings": [
+            "Master techniques for clear and effective communication in various technical and leadership contexts.",
+            "Practice scenario-based communications challenges to enhance leadership presence.",
+            "Learn to tailor communication strategies to diverse teams and situations."
+        ]
+    },
+    {
+        "title": "Conflict Resolution for Technical Teams",
+        "description": "Learn strategies to manage and resolve conflicts within technical teams to maintain a harmonious and productive work environment.",
+        "rating": 4.6,
+        "trending_metric": 72,
+        "skills_learned": ["Conflict resolution", "Team harmony"],
+        "hours_to_complete": 12,
+        "learnings": [
+            "Understand different conflict styles and effective resolution techniques.",
+            "Apply conflict resolution strategies through interactive workshops.",
+            "Learn to foster a positive work environment even under stress."
+        ]
+    },
+    {
+        "title": "Technical Training on Internet of Things (IoT)",
+        "description": "Gain skills in IoT device installation, troubleshooting, and network integration to enhance your technical capabilities in the growing field of IoT.",
+        "rating": 4.5,
+        "trending_metric": 67,
+        "skills_learned": ["IoT installation", "Troubleshooting", "Network integration"],
+        "hours_to_complete": 30,
+        "learnings": [
+            "Learn the fundamentals of IoT technology and its applications in telecommunications.",
+            "Practice installing and configuring IoT devices in a simulated environment.",
+            "Develop skills in diagnosing and resolving connectivity issues with IoT systems."
+        ]
+    },
+    {
+        "title": "Safety Standards Leadership",
+        "description": "Become a leader in safety practices by mastering advanced safety standards and training techniques to mentor others.",
+        "rating": 4.8,
+        "trending_metric": 82,
+        "skills_learned": ["Safety training", "Leadership in safety"],
+        "hours_to_complete": 15,
+        "learnings": [
+            "Understand advanced safety protocols and how to implement them across teams.",
+            "Learn to conduct safety training sessions and drills.",
+            "Develop leadership skills specific to promoting and maintaining safety standards."
+        ]
+    },
+    {
+        "title": "Customer Experience Management",
+        "description": "Enhance your ability to manage and improve customer interactions and satisfaction across technical service areas.",
+        "rating": 4.3,
+        "trending_metric": 75,
+        "skills_learned": ["Customer experience", "Service management"],
+        "hours_to_complete": 20,
+        "learnings": [
+            "Explore principles of customer experience management tailored for tech services.",
+            "Learn tools and strategies to enhance customer satisfaction consistently.",
+            "Gain skills in analyzing customer feedback to make data-driven improvements."
+        ]
+    },
+    {
+        "title": "Resource Allocation and Logistics",
+        "description": "Optimize resource allocation and logistics to improve efficiency and service delivery in field operations.",
+        "rating": 4.4,
+        "trending_metric": 68,
+        "skills_learned": ["Resource allocation", "Logistics management"],
+        "hours_to_complete": 25,
+        "learnings": [
+            "Learn the best practices in logistics management specific to field services.",
+            "Understand how to optimize routes and resources for maximum efficiency.",
+            "Apply principles of lean management to reduce waste and improve service times."
+        ]
+    },
+    {
+        "title": "Strategic Decision Making for Tech Leaders",
+        "description": "Develop the ability to make informed, strategic decisions that align with both technical goals and broader business objectives.",
+        "rating": 4.7,
+        "trending_metric": 80,
+        "skills_learned": ["Strategic decision-making", "Business alignment"],
+        "hours_to_complete": 35,
+        "learnings": [
+            "Understand frameworks for strategic decision-making in a technical context.",
+            "Learn to align technical decisions with overall business strategies.",
+            "Practice decision-making through real-world case studies and simulations."
+        ]
+    },
+    {
+        "title": "Emerging Technologies in Telecommunications",
+        "description": "Stay updated with the latest advancements in telecommunications technologies and prepare for future trends.",
+        "rating": 4.8,
+        "trending_metric": 85,
+        "skills_learned": ["Emerging technologies", "Trend analysis"],
+        "hours_to_complete": 40,
+        "learnings": [
+            "Explore new and emerging technologies shaping the future of telecommunications.",
+            "Learn how to adapt and integrate new technologies into existing operations.",
+            "Analyze trends to predict and prepare for future tech developments."
+        ]
+    },
+    {
+        "title": "Performance Management for Field Teams",
+        "description": "Learn effective techniques for managing and enhancing the performance of field teams, focusing on metrics, feedback, and continuous improvement.",
+        "rating": 4.6,
+        "trending_metric": 73,
+        "skills_learned": ["Performance management", "Continuous improvement"],
+        "hours_to_complete": 20,
+        "learnings": [
+            "Understand performance metrics and their application in field service management.",
+            "Develop skills in providing constructive feedback and coaching.",
+            "Learn methods for fostering a culture of continuous improvement among technical teams."
+        ]
+    }
+]
