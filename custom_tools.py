@@ -72,4 +72,10 @@ def get_technician_goals(technician_id: str):
     return docx_data
 
 
-tools = [get_technician_goals, retrieve_available_courses, get_technician_performance_reviews]
+@tool
+def get_job_aid(job_id: str):
+    """This is job aid for a particular job role based on id"""
+
+    return docx_data
+
+tools = [get_job_aid, retrieve_available_courses, get_technician_performance_reviews]
