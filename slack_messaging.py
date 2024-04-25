@@ -1,7 +1,11 @@
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-SLACK_TOKEN = "xoxb-6925306004261-6971253253811-jDmH39JOcw3IUCwHmXttWLeB"
+
+import os
+
+
+SLACK_TOKEN = os.environ.get("SLACK_TOKEN")
 
 client = WebClient(token=SLACK_TOKEN)
 

@@ -59,8 +59,9 @@ def hello_world():
     llm = get_openai()
 
     # query = request.args.get('query')
+    params = request.get_json()
 
-    query = "Suggest some courses for Technician ID 1001"
+    query = "Request from Technician ID " + str(params['technician_id']) + " : " + params['query']
 
     orchestrator_agent_prompt = hub.pull("hwchase17/openai-tools-agent")
 
