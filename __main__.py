@@ -13,9 +13,10 @@ from slack_messaging import send_message
 app = Flask(__name__)
 
 import os
+
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_API_KEY"] = "ls__072b32f36eaf4a099cca7e29b8e28035"
-os.environ["LANGCHAIN_PROJECT"]= "verizon_counsellor_2024"
+os.environ["LANGCHAIN_PROJECT"] = "verizon_counsellor_2024"
 
 
 def get_llama():
@@ -65,24 +66,31 @@ def hello_world():
 
     orchestrator_agent_prompt = hub.pull("hwchase17/openai-tools-agent")
 
-    final_response_structure = """
-	1. Course recommendations for Technician.
-	2. Reasons for each recommendation.
 
-	"""
 
     slack_standards = """
-	BOLD: *your_text*
-	ITALICS: _your_text_
-	CODE: `your_text`
-	BULLETED LIST: * your_text
+	BOLD: *your text*
+	ITALICS: _your text_
+	CODE: `your text`
+	BULLETED LIST: - your text
 	"""
+
+    final_response_structure = f"""
+        1. Recommend 3 courses from the available course catalog (each course from a different focus area)
+    	2. For course recommendations for a Technician, Include
+    	    a. Skills they learn
+    	    b. Hours
+    	    c. Trending metric
+    	    d. Reason for recommendation
+    	3. Refer to the skills that the technician already possesses before recommending.
+    	4. Do not use any formatting in your output. Just plain text with numbering or bullets where required.
+    """
 
     orchestrator_agent_prompt.messages[0].prompt.template = orchestrator_agent_prompt.messages[
                                                                 0].prompt.template + "\nYou specialize in providing counselling and course recommendations. You answer the user's question in detail and provide reasoning. Remember, whenever you provide recommendations, do so in decreasing order of priority and always provide reasoning behind the recommendation."
-    orchestrator_agent_prompt.messages[0].prompt.template = orchestrator_agent_prompt.messages[
-                                                                0].prompt.template + f"\n Follow Slack formatting standards in your final output. Slack Standards: {slack_standards}"
 
+    orchestrator_agent_prompt.messages[0].prompt.template = orchestrator_agent_prompt.messages[
+                                                                0].prompt.template + f"\nAdditional instructions:{final_response_structure}"
     agent = create_tool_calling_agent(llm, tools, orchestrator_agent_prompt)
     # Create an agent executor by passing in the agent and tools
     agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
@@ -94,11 +102,20 @@ def hello_world():
 	        '''
 	        {suggestions['output']}
 	        '''
+	        
+	        Additional instructions:
+	        1. The message formatting standards below should be followed - 
+	        {slack_standards}
+	        2. DO NOT use your own formatting.
+	        3. Use the formatting standards mentioned in point 1 to make the message more appealing.
 	        """)
 
-    send_message("Hello Derek, thank you for using Verizon Employee Connect.\n" + slack_message.content)
 
-    return slack_message.content
+    slack_message = slack_message.content.replace("####","*").replace("###","*").replace("##", "*").replace("***", "*").replace("**", "*")
+
+    send_message("Hello Derek, thank you for using Verizon Employee Connect.\n" + slack_message)
+
+    return slack_message
 
 
 # main driver function

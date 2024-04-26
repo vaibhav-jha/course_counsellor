@@ -61,15 +61,19 @@ def get_perfromance_reviews(technician_id: str):
 
 
 @tool
-def search_training_courses():
-    """Retrieves all training courses available in the course catalog for technicians"""
+def get_available_training_courses():
+    """
+    Retrieves all training courses available in the course catalog for all technicians.
+    This helps technicians improve various skills. Useful for recommending skill improvements for technicians.
+    Use when determining skill-improvement suggestions for one or more technicians.
+    """
 
     return courses
 
 
 @tool
 def get_skills_by_employee(technician_id: str):
-    """Retrieves the skills that a technician possesses"""
+    """Retrieves the skills that a technician possesses."""
 
     return """Skills:
 - Basic Fiber  maintainence and installation
@@ -80,12 +84,16 @@ def get_skills_by_employee(technician_id: str):
 
 
 @tool
-def get_job_aid_by_role(job_id: str):
-    """This is job aid for a particular job role based on id"""
+def get_job_aid_by_role(job_role: str):
+    """
+    This is job aid for a particular job role based on a position.
+    Lists out the skills needed for a particular job role.
+    Use this to retrieve the skill requirements for a particular job role.
+    """
 
     return docx_data
 
 
 
 
-tools = [get_job_aid_by_role, search_training_courses, get_perfromance_reviews, get_skills_by_employee]
+tools = [get_job_aid_by_role, get_available_training_courses, get_perfromance_reviews, get_skills_by_employee]
