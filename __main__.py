@@ -83,7 +83,8 @@ def hello_world():
     	    c. Trending metric
     	    d. Reason for recommendation
     	3. Refer to the skills that the technician already possesses before recommending.
-    	4. Do not use any formatting in your output. Just plain text with numbering or bullets where required.
+    	4. Recommendations should be in decreasing order of priority.
+    	5. Do not use any formatting in your output. Just plain text with numbering or bullets where required.
     """
 
     orchestrator_agent_prompt.messages[0].prompt.template = orchestrator_agent_prompt.messages[
