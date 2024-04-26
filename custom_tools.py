@@ -36,8 +36,8 @@ def get_job_aids():
 
 
 @tool
-def get_technician_manager_reviews(technician_id: str):
-    """Gets details of a technicians manager reviews and performance in different quarters. This can be helpful in suggesting courses to the technician"""
+def get_perfromance_reviews(technician_id: str):
+    """Gets details of a technician's manager reviews regarding performance in different quarters. This can be helpful in suggesting courses to the technician"""
 
     questions = """
     1. What are the areas in which the technician lacks?
@@ -61,15 +61,15 @@ def get_technician_manager_reviews(technician_id: str):
 
 
 @tool
-def retrieve_available_courses():
-    """Retrieves all available courses available in the course catalog for technicians"""
+def search_training_courses():
+    """Retrieves all training courses available in the course catalog for technicians"""
 
     return courses
 
 
 @tool
-def get_technician_skills(technician_id: str):
-    """Retrieves the skills that the technician possesses"""
+def get_skills_by_employee(technician_id: str):
+    """Retrieves the skills that a technician possesses"""
 
     return """Skills:
 - Basic Fiber  maintainence and installation
@@ -80,7 +80,7 @@ def get_technician_skills(technician_id: str):
 
 
 @tool
-def get_job_aid(job_id: str):
+def get_job_aid_by_role(job_id: str):
     """This is job aid for a particular job role based on id"""
 
     return docx_data
@@ -88,4 +88,4 @@ def get_job_aid(job_id: str):
 
 
 
-tools = [get_job_aid, retrieve_available_courses, get_technician_manager_reviews, get_technician_skills]
+tools = [get_job_aid_by_role, search_training_courses, get_perfromance_reviews, get_skills_by_employee]
