@@ -96,7 +96,7 @@ def hello_world():
 	        '''
 	        """)
 
-    send_message(slack_message.content)
+    send_message("Hello Derek, thank you for using Verizon Employee Connect.\n" + slack_message.content)
 
     return slack_message.content
 

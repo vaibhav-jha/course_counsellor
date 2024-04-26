@@ -36,13 +36,15 @@ def get_job_aids():
 
 
 @tool
-def get_technician_performance_reviews(technician_id: str):
-    """Gets details of a technicians performance reviews. This can be helpful in suggesting courses to the technician"""
+def get_technician_manager_reviews(technician_id: str):
+    """Gets details of a technicians manager reviews and performance in different quarters. This can be helpful in suggesting courses to the technician"""
 
     questions = """
     1. What are the areas in which the technician lacks?
     2. What are the suggestions from their manager?
     3. If there is a decline in performance, explain why it could have happened.
+    
+    Instruction - Mention the fullname of the technician at the start
     """
 
     df_agent = create_pandas_dataframe_agent(
@@ -66,10 +68,15 @@ def retrieve_available_courses():
 
 
 @tool
-def get_technician_goals(technician_id: str):
-    """Retrieves the career goals that the technician has."""
+def get_technician_skills(technician_id: str):
+    """Retrieves the skills that the technician possesses"""
 
-    return docx_data
+    return """Skills:
+- Basic Fiber  maintainence and installation
+- Basic Fiber troubleshooting tools
+- Basic email and office
+- Basic safety training
+- Customer service training"""
 
 
 @tool
@@ -78,4 +85,7 @@ def get_job_aid(job_id: str):
 
     return docx_data
 
-tools = [get_job_aid, retrieve_available_courses, get_technician_performance_reviews]
+
+
+
+tools = [get_job_aid, retrieve_available_courses, get_technician_manager_reviews, get_technician_skills]
