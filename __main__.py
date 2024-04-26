@@ -76,7 +76,7 @@ def hello_world():
 	"""
 
     final_response_structure = f"""
-        1. Recommend 3 courses from the available course catalog (each course from a different focus area)
+        1. Recommend 3 courses from the available course catalog (each course from a different focus area). DO NOT recommend courses from your own knowledge. Look for the right tool.
     	2. For course recommendations for a Technician, Include
     	    a. Skills they learn
     	    b. Hours
