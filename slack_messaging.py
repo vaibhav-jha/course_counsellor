@@ -20,6 +20,11 @@ def send_message(text):
             text=text
         )
 
+        response = client.chat_postMessage(
+            channel="U070EMD5GJ3",
+            text=text
+        )
+
         print(response)
     except SlackApiError as e:
         # You will get a SlackApiError if "ok" is False
