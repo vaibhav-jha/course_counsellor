@@ -4,6 +4,7 @@ from flask import Flask, request, jsonify
 from langchain import hub
 from langchain.agents import AgentExecutor, create_tool_calling_agent, create_structured_chat_agent
 import langchain
+import json 
 
 from custom_tools import tools
 from slack_messaging import send_message
@@ -115,8 +116,14 @@ def hello_world():
     slack_message = slack_message.content.replace("####","*").replace("###","*").replace("##", "*").replace("***", "*").replace("**", "*")
 
     send_message("Hello Derek, thank you for using Verizon Employee Connect.\n" + slack_message)
+    send_message("I can also check your calendar to help you schedule your class.")
 
     return slack_message
+
+@app.route('/scheduling', methods=['GET', 'POST'])
+# ‘/’ URL is bound with hello_world() function.
+def scheduling():
+    scheduler()
 
 
 # main driver function
