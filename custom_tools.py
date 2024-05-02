@@ -21,7 +21,7 @@ from my_llms import get_openai
 from database_dummy import get_courses_data, get_review_data, get_goals_data
 
 all_dfs = get_review_data(['Performance Review', 'Agent Skills', 'Job Aids'])
-#llm = get_openai()
+llm = get_openai()
 
 courses = get_courses_data()
 docx_data = get_goals_data()
@@ -154,4 +154,4 @@ def get_schedule():
     return json.dumps(events_cal, default=str)
 
 
-tools = [get_job_aid_by_role, get_available_training_courses, get_perfromance_reviews, get_skills_by_employee, get_schedule]
+tools = [get_job_aid_by_role, get_available_training_courses, get_perfromance_reviews, get_skills_by_employee]
