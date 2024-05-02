@@ -93,5 +93,6 @@ def get_recommendations(params):
         "**", "*")
 
     send_message("Hello Derek, thank you for using Verizon Employee Connect.\n" + slack_message)
+    send_message("I can help you schedule this class as well")
 
     print("DONE")
