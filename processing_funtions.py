@@ -61,15 +61,17 @@ def get_recommendations(params):
             p.prompt.template = "<|start_header_id|>human<|end_header_id|>\n\n" + p.prompt.template + "<|eot_id|>"
 
     llama_agent_prompt.messages[
-        -1].prompt.template = f"<|start_header_id|>system<|end_header_id|> You specialize in providing counselling and course recommendations. You answer the user's question in detail and provide reasoning. Remember, whenever you provide recommendations, do so in decreasing order of priority and always provide reasoning behind the recommendation.\nResponse Instructions: {final_response_structure}<|eot_id|> " + \
-                              llama_agent_prompt.messages[-1].prompt.template
+        0].prompt.template = f"<|start_header_id|>system<|end_header_id|> You specialize in providing counselling and course recommendations. You answer the user's question in detail and provide reasoning. Remember, whenever you provide recommendations, do so in decreasing order of priority and always provide reasoning behind the recommendation.\nResponse Instructions: {final_response_structure}<|eot_id|> " + \
+                              llama_agent_prompt.messages[0].prompt.template
     llama_agent_prompt.messages[
         -1].prompt.template = "<|start_header_id|>system<|end_header_id|>Additional Format Instruction: The 'action_input' should always be a json of the arguments the tool accepts. If the tool does not require any argument, use an empty json.<|eot_id|> " + \
                               llama_agent_prompt.messages[-1].prompt.template
+
+
     agent_llama = create_structured_chat_agent(llm=get_llama(), tools=tools, prompt=llama_agent_prompt,
                                                stop_sequence=["Observation:"])
 
-    agent_executor = AgentExecutor(agent=agent_llama, tools=tools, verbose=True)
+    agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
     suggestions = agent_executor.invoke({"input": query})
 
