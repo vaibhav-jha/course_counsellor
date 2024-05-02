@@ -122,7 +122,6 @@ def hello_world():
     return slack_message
 
 @app.route('/scheduling', methods=['GET', 'POST'])
-# ‘/’ URL is bound with hello_world() function.
 def scheduling():
     scheduler()
 
