@@ -17,17 +17,15 @@ def send_message(text):
         print("PRINTING SLACK !!! SLACK ")
 
         response = client.chat_postMessage(
-            channel="U070398E4UC",
+            channel="U0702SSEF47",
             text=text
         )
 
         response = client.chat_postMessage(
-            channel="U070EMD5GJ3",
+            channel="U0702SSEF47",
             text=text
         )
-        rsp_ts = response['ts']
-        
-        print(client.conversations_replies(channel="U070EMD5GJ3",ts =rsp_ts))
+
         print(response)
     except SlackApiError as e:
         # You will get a SlackApiError if "ok" is False
