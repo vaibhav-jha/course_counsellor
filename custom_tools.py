@@ -131,8 +131,8 @@ def get_schedule():
                 token.write(creds.to_json())
 
         event = {
-  'summary': 'Leadership Development for Technical Managers',
-  'location': 'vz.com/leadership',
+  'summary': 'Advanced Fiber Optics Installation and Maintenance',
+  'location': 'vz.com/training',
   'description': 'This course covers essential leadership skills tailored for technical environments, focusing on effective team management and strategic decision-making.',
   'start': {
     'dateTime': '2024-05-06T08:00:00-07:00',
