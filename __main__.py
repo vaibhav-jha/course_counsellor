@@ -7,6 +7,7 @@ from langchain_core.prompts import SystemMessagePromptTemplate, HumanMessageProm
 
 from processing_funtions import get_recommendations
 from custom_tools import tools
+from custom_tools import get_schedule as scheduler
 from slack_messaging import send_message
 from threading import Thread
 
@@ -36,6 +37,7 @@ def hello_world():
 
 @app.route('/scheduling', methods=['GET', 'POST'])
 def scheduling():
+    scheduler()
     return 'hit endpoint'
 
 
