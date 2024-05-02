@@ -34,6 +34,12 @@ def hello_world():
     return 'Recommendations will be sent over soon.'
 
 
+@app.route('/scheduling', methods=['GET', 'POST'])
+# ‘/’ URL is bound with hello_world() function.
+def hello_world():
+    return 'hit endpoint'
+
+
 # main driver function
 if __name__ == '__main__':
     # run() method of Flask class runs the application
