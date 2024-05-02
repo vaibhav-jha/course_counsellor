@@ -131,7 +131,7 @@ def get_schedule():
                 token.write(creds.to_json())
 
         event = {
-  'summary': 'Advanced Fiber Optics Installation and Maintenance',
+  'summary': 'Advanced Network Troubleshooting',
   'location': 'vz.com/training',
   'description': 'This course covers essential leadership skills tailored for technical environments, focusing on effective team management and strategic decision-making.',
   'start': {
