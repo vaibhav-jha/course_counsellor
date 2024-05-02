@@ -7,6 +7,7 @@ import langchain
 import json 
 
 from custom_tools import tools
+from custom_tools import get_schedule as scheduler
 from slack_messaging import send_message
 
 # Flask constructor takes the name of
