@@ -25,7 +25,9 @@ def send_message(text):
             channel="U070EMD5GJ3",
             text=text
         )
-
+        rsp_ts = response['ts']
+        
+        print(client.conversations_replies(channel="U070EMD5GJ3",ts =rsp_ts))
         print(response)
     except SlackApiError as e:
         # You will get a SlackApiError if "ok" is False
