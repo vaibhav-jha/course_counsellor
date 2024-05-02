@@ -36,7 +36,7 @@ def hello_world():
 
 @app.route('/scheduling', methods=['GET', 'POST'])
 # ‘/’ URL is bound with hello_world() function.
-def hello_world():
+def scheduling():
     return 'hit endpoint'
 
 
