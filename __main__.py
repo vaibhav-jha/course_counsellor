@@ -124,6 +124,7 @@ def hello_world():
 @app.route('/scheduling', methods=['GET', 'POST'])
 def scheduling():
     scheduler()
+    return 'Scheduled'
 
 
 # main driver function
