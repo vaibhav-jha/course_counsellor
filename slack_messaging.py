@@ -17,12 +17,12 @@ def send_message(text):
         print("PRINTING SLACK !!! SLACK ")
 
         response = client.chat_postMessage(
-            channel="U0702SSEF47",
+            channel="U070EMD5GJ3",
             text=text
         )
 
         response = client.chat_postMessage(
-            channel="U0702SSEF47",
+            channel="U070EMD5GJ3",
             text=text
         )
 
