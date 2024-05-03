@@ -17,14 +17,11 @@ def send_message(text):
         print("PRINTING SLACK !!! SLACK ")
 
         response = client.chat_postMessage(
-            channel="U070398E4UC",
+            channel="U0702SSEF47",
             text=text
         )
 
-        response = client.chat_postMessage(
-            channel="U070398E4UC",
-            text=text
-        )
+
 
         print(response)
     except SlackApiError as e:
