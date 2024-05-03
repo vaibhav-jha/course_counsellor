@@ -2,6 +2,7 @@
     {
         "title": "Leadership Development for Technical Managers",
         "description": "This course covers essential leadership skills tailored for technical environments, focusing on effective team management and strategic decision-making.",
+        "enrollement_link": "vz.com/LeadershipDev",
         "rating": 4.5,
         "peer_completion": 85,
         "skills_learned": ["Team management", "Conflict resolution", "Strategic decision-making"],
@@ -15,6 +16,7 @@
     {
         "title": "Advanced Network Troubleshooting",
         "description": "Deep dive into complex network issues with hands-on labs and real-world problem-solving scenarios.",
+        "enrollement_link": "vz.com/ANT",
         "rating": 4.7,
         "peer_completion": 80,
         "skills_learned": ["Network troubleshooting", "Problem-solving"],
@@ -28,6 +30,7 @@
     {
         "title": "Customer Interaction Mastery",
         "description": "Learn to handle difficult customer service situations through advanced communication strategies and role-playing sessions.",
+        "enrollement_link": "vz.com/CIM",
         "rating": 4.4,
         "peer_completion": 75,
         "skills_learned": ["Customer service", "Communication", "Stress management"],
@@ -41,6 +44,7 @@
     {
         "title": "Quality Management and Compliance",
         "description": "Understand the fundamentals of quality control and compliance in telecommunications to ensure high standards across operations.",
+        "enrollement_link": "vz.com/QMC",
         "rating": 4.6,
         "peer_completion": 70,
         "skills_learned": ["Quality assurance", "Regulatory compliance"],
@@ -54,6 +58,7 @@
     {
         "title": "Operational Efficiency in Field Services",
         "description": "Optimize team workflows and resource management to improve operational efficiency and reduce costs.",
+        "enrollement_link": "vz.com/OEFS",
         "rating": 4.3,
         "peer_completion": 65,
         "skills_learned": ["Workflow optimization", "Resource management"],
@@ -67,6 +72,7 @@
     {
         "title": "Effective Safety Protocols Training",
         "description": "Enhance safety knowledge with updated protocols and hands-on practice, focusing on minimizing risks and ensuring compliance on-site.",
+        "enrollement_link": "vz.com/ESPT",
         "rating": 4.8,
         "peer_completion": 90,
         "skills_learned": ["Safety protocols", "Risk management"],
@@ -80,6 +86,7 @@
     {
         "title": "Advanced Fiber Optics Installation and Maintenance",
         "description": "Master the latest techniques in fiber optics installation and maintenance, essential for managing high-speed telecommunications infrastructure.",
+        "enrollement_link": "vz.com/AFOIM",
         "rating": 4.9,
         "peer_completion": 95,
         "skills_learned": ["Fiber optics installation", "Infrastructure maintenance"],
@@ -93,6 +100,7 @@
     {
         "title": "Project Management Certification Prep",
         "description": "Prepare for PMP or CAPM certifications with a comprehensive review of project management principles, tailored for technical projects.",
+        "enrollement_link": "vz.com/PMCP",
         "rating": 4.6,
         "peer_completion": 78,
         "skills_learned": ["Project management", "Certification preparation"],
@@ -106,6 +114,7 @@
     {
         "title": "Next-Gen 5G Technology Training",
         "description": "Stay ahead with a deep understanding of 5G technology, its deployment, and maintenance challenges in the field.",
+        "enrollement_link": "vz.com/5GTT",
         "rating": 4.7,
         "peer_completion": 88,
         "skills_learned": ["5G technology", "Network deployment"],
@@ -119,6 +128,7 @@
     {
         "title": "Advanced Communication for Leaders",
         "description": "Develop exceptional communication skills that enhance clarity and effectiveness in leadership roles within technical teams.",
+        "enrollement_link": "vz.com/ACL",
         "rating": 4.5,
         "peer_completion": 60,
         "skills_learned": ["Effective communication", "Team leadership"],
@@ -132,6 +142,7 @@
     {
         "title": "Conflict Resolution for Technical Teams",
         "description": "Learn strategies to manage and resolve conflicts within technical teams to maintain a harmonious and productive work environment.",
+        "enrollement_link": "vz.com/CRTT",
         "rating": 4.6,
         "peer_completion": 72,
         "skills_learned": ["Conflict resolution", "Team harmony"],
@@ -145,6 +156,7 @@
     {
         "title": "Technical Training on Internet of Things (IoT)",
         "description": "Gain skills in IoT device installation, troubleshooting, and network integration to enhance your technical capabilities in the growing field of IoT.",
+        "enrollement_link": "vz.com/TTIT",
         "rating": 4.5,
         "peer_completion": 67,
         "skills_learned": ["IoT installation", "Troubleshooting", "Network integration"],
@@ -158,6 +170,7 @@
     {
         "title": "Safety Standards Leadership",
         "description": "Become a leader in safety practices by mastering advanced safety standards and training techniques to mentor others.",
+        "enrollement_link": "vz.com/SSL",
         "rating": 4.8,
         "peer_completion": 82,
         "skills_learned": ["Safety training", "Leadership in safety"],
@@ -171,6 +184,7 @@
     {
         "title": "Customer Experience Management",
         "description": "Enhance your ability to manage and improve customer interactions and satisfaction across technical service areas.",
+        "enrollement_link": "vz.com/CEM",
         "rating": 4.3,
         "peer_completion": 75,
         "skills_learned": ["Customer experience", "Service management"],
@@ -184,6 +198,7 @@
     {
         "title": "Resource Allocation and Logistics",
         "description": "Optimize resource allocation and logistics to improve efficiency and service delivery in field operations.",
+        "enrollement_link": "vz.com/RAL",
         "rating": 4.4,
         "peer_completion": 68,
         "skills_learned": ["Resource allocation", "Logistics management"],
@@ -197,6 +212,7 @@
     {
         "title": "Strategic Decision Making for Tech Leaders",
         "description": "Develop the ability to make informed, strategic decisions that align with both technical goals and broader business objectives.",
+        "enrollement_link": "vz.com/SDMTL",
         "rating": 4.7,
         "peer_completion": 80,
         "skills_learned": ["Strategic decision-making", "Business alignment"],
@@ -210,6 +226,7 @@
     {
         "title": "Emerging Technologies in Telecommunications",
         "description": "Stay updated with the latest advancements in telecommunications technologies and prepare for future trends.",
+        "enrollement_link": "vz.com/ETT",
         "rating": 4.8,
         "peer_completion": 85,
         "skills_learned": ["Emerging technologies", "Trend analysis"],
@@ -223,6 +240,7 @@
     {
         "title": "Performance Management for Field Teams",
         "description": "Learn effective techniques for managing and enhancing the performance of field teams, focusing on metrics, feedback, and continuous improvement.",
+        "enrollement_link": "vz.com/PMFT",
         "rating": 4.6,
         "peer_completion": 73,
         "skills_learned": ["Performance management", "Continuous improvement"],
