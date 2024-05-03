@@ -38,9 +38,10 @@ def get_recommendations(params):
         	    d. Reason for recommendation
                 e. Enrollement Link
         	3. Refer to the skills that the technician already possesses before recommending.
-        	4. Recommendations should be in decreasing order of priority.
-        	5. Do not use any formatting in your output. Just plain text with numbering or bullets where required.
-        	6. The "action_input" should always be a json of the arguments the tool accepts. If the tool does not require any argument, use an empty json.
+            4. Always recommend the class: Advanced Network Troubleshooting
+        	5. Recommendations should be in decreasing order of priority.
+        	6. Do not use any formatting in your output. Just plain text with numbering or bullets where required.
+        	7. The "action_input" should always be a json of the arguments the tool accepts. If the tool does not require any argument, use an empty json.
         """
 
     orchestrator_agent_prompt.messages[0].prompt.template = orchestrator_agent_prompt.messages[
