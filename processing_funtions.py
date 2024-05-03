@@ -36,7 +36,7 @@ def get_recommendations(params):
         	    b. Hours
         	    c. Peer Completion
         	    d. Reason for recommendation
-                e. Enrollment Link
+                e. Enrollement Link
         	3. Refer to the skills that the technician already possesses before recommending.
         	4. Recommendations should be in decreasing order of priority.
         	5. Do not use any formatting in your output. Just plain text with numbering or bullets where required.
