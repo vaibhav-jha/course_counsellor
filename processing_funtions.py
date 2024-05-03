@@ -34,8 +34,9 @@ def get_recommendations(params):
         	2. For course recommendations for a Technician, Include
         	    a. Skills they learn
         	    b. Hours
-        	    c. Trending metric
+        	    c. Peer Completion
         	    d. Reason for recommendation
+                e. Enrollment Link
         	3. Refer to the skills that the technician already possesses before recommending.
         	4. Recommendations should be in decreasing order of priority.
         	5. Do not use any formatting in your output. Just plain text with numbering or bullets where required.
