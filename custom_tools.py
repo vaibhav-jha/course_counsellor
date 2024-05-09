@@ -139,7 +139,7 @@ def get_schedule():
     'timeZone': 'America/Los_Angeles',
   },
   'end': {
-    'dateTime': '2024-05-17T09:00:00-07:00',
+    'dateTime': '2024-05-13T09:00:00-07:00',
     'timeZone': 'America/Los_Angeles',
   },
   'recurrence': [
