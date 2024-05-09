@@ -135,11 +135,11 @@ def get_schedule():
   'location': 'vz.com/training',
   'description': 'This course covers essential leadership skills tailored for technical environments, focusing on effective team management and strategic decision-making.',
   'start': {
-    'dateTime': '2024-05-13T08:00:00-07:00',
+    'dateTime': '2024-05-06T08:00:00-07:00',
     'timeZone': 'America/Los_Angeles',
   },
   'end': {
-    'dateTime': '2024-05-13T09:00:00-07:00',
+    'dateTime': '2024-05-06T09:00:00-07:00',
     'timeZone': 'America/Los_Angeles',
   },
   'recurrence': [
